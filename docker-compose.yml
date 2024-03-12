@@ -10,7 +10,7 @@ services:
     ports:
       - 5000:80  
     depends_on:   
-      - db-container  
+      - db
   db:
     platform: linux/x86_64
     container_name: street-fighter
